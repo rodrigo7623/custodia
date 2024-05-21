@@ -1,4 +1,4 @@
-package entity;
+package com.cavapy.custodia.entity;
 
 import lombok.Data;
 

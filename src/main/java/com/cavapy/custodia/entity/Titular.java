@@ -1,4 +1,4 @@
-package entity;
+package com.cavapy.custodia.entity;
 
 import com.cavapy.custodia.model.Contacto;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
@@ -8,7 +8,6 @@ import lombok.Data;
 @Data
 @JsonTypeInfo(
         use = JsonTypeInfo.Id.NAME,
-        include = JsonTypeInfo.As.PROPERTY,
         property = "type"
 )
 @JsonSubTypes(

@@ -1,4 +1,4 @@
-package controller;
+package com.cavapy.custodia.controller;
 
 import com.cavapy.custodia.util.CustodiaResponse;
 import io.swagger.v3.oas.annotations.Operation;
