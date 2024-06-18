@@ -15,7 +15,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 
 @CrossOrigin
 @RestController
-@RequestMapping(value = "/v1/titular")
+@RequestMapping(value = "/titular")
 @Tag(name = "Operaciones del Titular", description = "Operaciones relacionadas el Titular")
 public class TitularController {
 

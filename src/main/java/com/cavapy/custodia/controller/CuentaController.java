@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/v1/cuentas")
+@RequestMapping("/cuentas")
 @Tag(name = "Operaciones de cuentas", description = "Operaciones relacionadas con cuentas")
 public class CuentaController {
 
